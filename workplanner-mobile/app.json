@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "WorkplannerMobile",
-    "slug": "WorkplannerMobile",
+    "name": "workplanner-mobile",
+    "slug": "workplanner-mobile",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
