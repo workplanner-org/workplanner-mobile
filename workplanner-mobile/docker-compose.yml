@@ -1,0 +1,17 @@
+version: '3.9'
+
+services:
+    workplanner-mobile:
+        build:
+            context: .
+            args:
+                - NODE_ENV=development
+        environment:
+            - NODE_ENV=development
+        tty: true
+        ports:
+            - '19006:19006'
+        volumes:
+            - ./workplanner-mobile/:/home/mobile-app
+        healthcheck:
+            disable: true
